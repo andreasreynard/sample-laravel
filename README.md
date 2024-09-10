@@ -1,41 +1,41 @@
-## Penjelasan
+# Penjelasan
 
 - Nama: Andreas Reynard Samsico
 - NRP: 5025221020
 - Kelas: PBKK D
 Berikut ini saya akan menjelaskan beberapa fitur pada tiap halaman web dalam berbagai bentuk.
 
-# Halaman rute '/'
+## Halaman rute '/'
 
 ![home1](public/img/home1.png)
 
 Rute halaman ini menggambarkan laman _home page_ dari web yang telah dibuat menggunakan Laravel. Pada bagian atas terdapat navbar yang merupakan link menuju halaman Home, About, Blog, dan Contact. Tidak ada sesuatu yang khusus di halaman ini.
 
-# Halaman rute '/about'
+## Halaman rute '/about'
 
 ![about1](public/img/about1.png)
 
 Rute halaman ini menggambarkan laman _about_ dari web ini yang juga mempunyai navbar yang sama (ini juga berlaku untuk halaman blog dan contacts). Selain terdapat informasi pemilik web ini, juga terdapat _screenshot_ halaman welcome.blade.php yang berada di dalam repository resources/views, menandakan bahwa Instalasi Laravel sudah berhasil.
 
-# Halaman rute '/blog'
+## Halaman rute '/blog'
 
 ![blog](public/img/blog.png)
 
 Rute halaman ini menggambarkan laman _blog_ dari web Laravel ini yang isinya memuat 2 buah artikel. Artikel berjudul __"My Own Article"__ mencertitakan tentang diri saya sendiri dan ucapan terima kasih, sedangkan yang berjudul __"Dummy Article"__ hanyalah paragraf-paragraf _lorem ipsum_ sebanyak 300 kata.
 
-# Halaman rute '/contact'
+## Halaman rute '/contact'
 
 ![blog](public/img/contact.png)
 
 Rute halaman tersebut menggambarkan laman _contact_ dari web ini yang isinya merupakan Email, nomor HP/WA, ID Line, akun Instagram, dan channel YouTube pribadi. Kata-kata yang <u>digarisbawahi</u> dapat diklik menuju link masing-masing.
 
-# Dropdown
+## Dropdown
 
 ![dropdown](public/img/dropdown.png)
 
 Navbar pada web ini juga mempunyai dropdown yang dimana setelah gambar diri saya diklik akan muncul 3 link yang hingga saat ini belum ada fungsinya (rute '/#').
 
-# Halaman web dalam bentuk Mobile
+## Halaman web dalam bentuk Mobile
 
 Catatan: Pada gambar-gambar di bawah ini bagian kiri adalah laman web dan bagian kanan adalah Visual Studio Code
 
@@ -47,9 +47,9 @@ Gambar di atas menunjukkan bahwa jika seseorang membuka laman web di perangkat m
 
 ![about2](public/img/about2.png)
 
-Pengguna perangkat mobile diharuskan untuk menekan 3 garis horizontal kecil di kanan atas untuk mengakses ke halaman web lain. Setelah itu, dapat terlihat navbar khusus yang terdiri dari pilihan halaman web yang sama, gambar diri saya, nama lengkap, Email, dan 3 link yang belum berfungsi seperti 2 contoh gambar di atas. Tekan tanda silang di kanan atas untuk menghilangkannya.
+Pengguna perangkat mobile harus menekan 3 garis horizontal kecil di kanan atas untuk mengakses ke halaman web lain. Setelah itu, dapat terlihat navbar khusus yang terdiri dari pilihan halaman web yang sama, gambar diri saya, nama lengkap, Email, dan 3 link yang belum berfungsi seperti 2 contoh gambar di atas. Tekan tanda silang di kanan atas untuk menghilangkannya.
 
-### Laravel
+# Laravel
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
