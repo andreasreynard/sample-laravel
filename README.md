@@ -3,6 +3,7 @@
 - Nama: Andreas Reynard Samsico
 - NRP: 5025221020
 - Kelas: PBKK D
+
 Berikut ini saya akan menjelaskan beberapa fitur pada tiap halaman web dalam berbagai bentuk.
 
 ## Halaman rute '/'
@@ -27,7 +28,7 @@ Rute halaman ini menggambarkan laman _blog_ dari web Laravel ini yang isinya mem
 
 ![blog](public/img/contact.png)
 
-Rute halaman tersebut menggambarkan laman _contact_ dari web ini yang isinya merupakan Email, nomor HP/WA, ID Line, akun Instagram, dan channel YouTube pribadi. Kata-kata yang <u>digarisbawahi</u> dapat diklik menuju link masing-masing.
+Rute halaman tersebut menggambarkan laman _contact_ dari web ini yang isinya merupakan Email, nomor HP/WA, ID Line, akun Instagram, dan channel YouTube pribadi. Kata-kata yang digarisbawahi (yang 2 terakhir) dapat diklik menuju link masing-masing.
 
 ## Dropdown
 
