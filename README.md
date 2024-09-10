@@ -38,7 +38,7 @@ Navbar pada web ini juga mempunyai dropdown yang dimana setelah gambar diri saya
 
 ## Halaman web dalam bentuk Mobile
 
-__Catatan__: Pada gambar-gambar di bawah ini bagian kiri adalah laman web dan bagian kanan adalah Visual Studio Code
+__Catatan__: Pada gambar-gambar di bawah ini bagian kiri adalah laman web dan bagian kanan adalah Visual Studio Code.
 
 ![home2](public/img/home2.png)
 
