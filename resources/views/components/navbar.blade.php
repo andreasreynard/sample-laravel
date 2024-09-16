@@ -9,7 +9,7 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
                         <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
-                        <x-nav-link href="/blog" :active="request()->is('blog')">Blog</x-nav-link>
+                        <x-nav-link href="/posts" :active="request()->is('posts')">Posts</x-nav-link>
                         <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                             <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                             <span class="absolute -inset-1.5"></span>
                             <span class="sr-only">Open user menu</span>
-                            <img class="h-8 w-8 rounded-full" src="img/pfp.jpg" alt="">
+                            <img class="h-8 w-8 rounded-full" src="../../../img/pfp.jpg" alt="">
                             </button>
                         </div>
                         <div x-show="isOpen" x-transition:enter="transition ease-out duration-100 transform" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-75 transform" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
@@ -57,13 +57,13 @@
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
-            <x-nav-link href="/blog" :active="request()->is('blog')">Blog</x-nav-link>
+            <x-nav-link href="/posts" :active="request()->is('posts')">Posts</x-nav-link>
             <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
         </div>
         <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
                 <div class="flex-shrink-0">
-                    <img class="h-10 w-10 rounded-full" src="img/pfp.jpg" alt="">
+                    <img class="h-10 w-10 rounded-full" src="../../../img/pfp.jpg" alt="">
                 </div>
                 <div class="ml-3">
                     <div class="text-base font-medium leading-none text-white">Andreas Reynard Samsico</div>
