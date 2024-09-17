@@ -18,11 +18,19 @@ Rute halaman ini menggambarkan laman _home page_ dari web yang telah dibuat meng
 
 Rute halaman ini menggambarkan laman _about_ dari web ini yang juga mempunyai navbar yang sama (ini juga berlaku untuk halaman blog dan contacts). Selain terdapat informasi pemilik web ini, juga terdapat _screenshot_ halaman welcome.blade.php yang berada di dalam repository resources/views, menandakan bahwa Instalasi Laravel sudah berhasil.
 
-## Halaman rute '/blog'
+## Halaman rute '/posts'
 
-![blog](public/img/blog.png)
+![posts](public/img/posts.png)
 
-Rute halaman ini menggambarkan laman _blog_ dari web Laravel ini yang isinya memuat 2 buah artikel. Artikel berjudul __"My Own Article"__ mencertitakan tentang diri saya sendiri dan ucapan terima kasih, sedangkan yang berjudul __"Dummy Article"__ hanyalah paragraf-paragraf _lorem ipsum_ sebanyak 300 kata.
+Rute halaman ini menggambarkan laman _posts_ dari web Laravel ini yang isinya memuat 2 buah artikel. Artikel berjudul "__My Own Article in This Post__" mencertitakan tentang diri saya sendiri dan ucapan terima kasih, sedangkan yang berjudul "__Dummy Article__" hanyalah 1 buah paragraf _lorem ipsum_. Namun pada halaman posts utama ini, isi dari tiap artikel dibatasi sebanyak 150 karakter, sehingga jika ingin melihatnya secara keseluruhan, maka ada keharusan untuk klik tulisan judul atau "__Read more >>__" tiap artikel dan nantinya masuk ke laman _single post_ pada artikel tersebut. Perhatikan gambar-gambar di bawah ini untuk melihat tampilan web rute '/posts/judul-artikel-1' dan '/posts/judul-artikel-2'. Klik "__<< Back to post__" untuk kembali ke menu posts utama tadi.
+
+![post1](public/img/post1.png)
+
+![post2](public/img/post2.png)
+
+Namun selain rute-rute di atas, dikarenakan adanya abort(404), pastinya web tujuan aslinya akan dialihkan menuju ke rute '/404' yang terbaca "__404 | NOT FOUND__", seperti gambar di bawah.
+
+![404](public/img/404.png)
 
 ## Halaman rute '/contact'
 
