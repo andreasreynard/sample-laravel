@@ -26,9 +26,9 @@ Rute halaman ini menggambarkan laman _posts_ dari web Laravel ini yang isinya me
 
 ![post](public/img/post.png)
 
-![post_author](public/img/post_author.png)
+![post author](public/img/posts_author.png)
 
-![post_category](public/img/post_category.png)
+![post category](public/img/posts_category.png)
 
 Namun selain rute-rute di atas, dikarenakan adanya abort(404), pastinya web tujuan aslinya akan dialihkan menuju ke rute '/404' yang terbaca "__404 | NOT FOUND__", seperti gambar di bawah.
 
