@@ -24,17 +24,17 @@ Rute halaman ini menggambarkan laman _about_ dari web ini yang juga mempunyai na
 
 ![posts down](public/img/posts_down.png)
 
-Rute halaman ini menggambarkan laman _posts_ dari web Laravel ini yang isinya memuat 3 buah artikel. Artikel berjudul "__My Own Article in This Post__" mencertitakan tentang diri saya sendiri dan ucapan terima kasih, sedangkan yang berjudul "__Dummy Article__" hanyalah 1 buah paragraf _l0r3m ip5um_, yang berjudul "__30-word Post__" tentang artikel acak tentang AI, dan yang berjudul "__Laravel's Article__" dan "__Laragon's Article__" masing-masing tentang artikel Laravel dan Laragon. Semua informasi berupa judul, penulis, slug, tubuh, dan _timestamp_ dibuatkannya telah disimpan ke suatu _database_. Namun pada halaman posts utama ini, isi dari tiap artikel dibatasi sebanyak 150 karakter, sehingga jika ingin melihatnya secara keseluruhan, maka ada keharusan untuk klik tulisan judul atau "__Read more >>__" tiap artikel dan nantinya masuk ke laman _single post_ pada artikel tersebut. Perhatikan gambar-gambar di bawah ini untuk melihat tampilan web rute '/posts/judul-artikel-1', '/posts/judul-artikel-2', '/posts/ai-slug', '/posts/laravel', dan '/posts/laragon'. Klik "__<< Back to post__" untuk kembali ke menu posts utama tadi.
+Rute halaman ini menggambarkan laman _posts_ dari web Laravel ini yang isinya memuat 100 buah artikel, tetapi tiap halaman berisi 9 buah dikarenakan adanya _pagination_, yang dibuat oleh beberapa penulis (termasuk "Andreas Reynard Samsico") dalam beberapa kategori yang berbeda-beda. Semua informasi berupa judul, id penulis (yang berisi informasi penulis berupa nama, _username_, email, _timestamp_ email terverikasi, password, token, dan _timestamp_ pembuatannya), id kategori (yang berisi informasi kategori berupa nama, slug, warna, dan _timestamp_ pembuatannya), slug, tubuh, dan _timestamp_ dibuatkannya telah disimpan ke suatu _database_. Namun pada halaman posts utama ini, isi dari tiap artikel dibatasi sebanyak 150 karakter, sehingga jika ingin melihatnya secara keseluruhan, maka ada keharusan untuk klik tulisan judul atau "__Read more ->__" tiap artikel dan nantinya masuk ke laman _single post_ pada artikel tersebut. Pengguna juga boleh klik nama penulis atau kategori untuk melakukan suatu _filter_ pada tiap jenis tadi. Perhatikan gambar-gambar di bawah ini untuk melihat salah satu tampilan web rute yang terlihat di pojok kiri atas. Klik "__<< Back to post__" untuk kembali ke menu posts utama tadi.
 
-![post1](public/img/post1.png)
+![post](public/img/post.png)
 
-![post2](public/img/post2.png)
+![posts author](public/img/posts_author.png)
 
-![post3](public/img/post3.png)
+![posts category](public/img/posts_category.png)
 
-![post4](public/img/post4.png)
+Selain hal-hal di atas, juga terdapat suatu fitur khusus bahwa pengguna dapat menggunakan _search_ untuk mencari suatu post, seperti di bawah ini.
 
-![post5](public/img/post5.png)
+![post search](public/img/posts_search.png)
 
 Namun selain rute-rute di atas, dikarenakan adanya abort(404), pastinya web tujuan aslinya akan dialihkan menuju ke rute '/404' yang terbaca "__404 | NOT FOUND__", seperti gambar di bawah.
 
